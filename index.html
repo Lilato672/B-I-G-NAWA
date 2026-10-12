@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <meta charset=”UTF-8”>
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+  <title>B-I-G-NAWA Website</title>
+  <style>
+    Body {
+      Font-family: Arial, sans-serif;
+      Background: #eaf4ff;
+      Text-align: center;
+      Padding: 60px 20px;
+    }
+
+    H1 {
+      Color: #123c70;
+    }
+
+    Button {
+      Background: #123c70;
+      Color: white;
+      Border: none;
+      Padding: 12px 24px;
+      Border-radius: 8px;
+      Cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to B-I-G-NAWA!</h1>
+  <p>My first website built using HTML, CSS and JavaScript.</p>
+
+  <button onclick=”showMessage()”>Click Me</button>
+  <p id=”message”></p>
+
+  <script>
+    Function showMessage() {
+      Document.getElementById(“message”).textContent =
+        “My website is working!”;
+    }
+  </script>
+</body>
+</html>
+
